@@ -1,4 +1,3 @@
-import React from 'react';
 import { Route } from 'react-router-dom'
 import './App.css';
 
@@ -9,13 +8,13 @@ import ProfileContainer from './components/Profile/ProfileContainer'
 
 function App() {
   return (
-    <div className="App">
-      <HeaderContainer />//don't change
+    <div className="app-wrapper">
+      <HeaderContainer />
       <NavbarContainer />
-        <div>
-          <Route path='./message' render={<ProfileContainer />} />
+        <div className='app-wrapper-content'>
+          <ProfileContainer />
         </div>
-      <FooterContainer />//don't change
+      <FooterContainer />
     </div>
   );
 }
