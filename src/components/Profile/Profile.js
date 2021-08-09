@@ -1,5 +1,5 @@
 import React from 'react'
-import stylles from './Profile.module.css'
+import stylles from './Profile.module.css'// stylles = obj
 import Sea from '../../common/img/sea.jpg'
 
 const Profile =  () => {

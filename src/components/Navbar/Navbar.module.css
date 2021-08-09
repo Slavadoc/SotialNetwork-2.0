@@ -2,3 +2,9 @@
   grid-area: n;
   background-color: #c2ab38;
 }
+.item {
+  color: #2a38c9;
+}
+.item.active {
+  color: #a80ca3;
+}
