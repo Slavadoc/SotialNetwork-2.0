@@ -7,11 +7,9 @@ const MyPosts =  () => {
   return <div className={stylles.profile}>
            <div><textarea></textarea></div>
            <button>Add post</button>
-           <Post message='hi, how are you?'/>
-           /*<Post/>
-           <Post/>
-           <Post/>
-           <Post />*/
+           <Post message='hi, how are you?' likesCount='20'/>
+           <Post message="What's up?" likesCount='0'/>
+           <Post message="How do you do?"/>
          </div>
 }
 

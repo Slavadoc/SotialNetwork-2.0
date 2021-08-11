@@ -5,7 +5,7 @@ const Profile =  (props) => {
   return <div className={stylles.profile}>
              <div><img src={Smail} className={stylles.img}/></div>
              <div>{props.message}</div>
-             <div>Post</div>
+             <div>LikesCount : {props.likesCount}</div>
             <span>Like</span>
             <span>Dislike</span>
          </div>

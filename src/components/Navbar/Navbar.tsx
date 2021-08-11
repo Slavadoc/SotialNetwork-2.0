@@ -1,5 +1,6 @@
 import React from 'react'
 import stylles from './Navbar.module.css' // stylles = obj
+import { Router,NavLink } from 'react-router-dom'
 
 
 console.log(stylles)/*
@@ -11,11 +12,19 @@ let newClasses = `${stylles.c1}${stylles.c2}`; // `` тильда
  inside jsx js stirng = ``*/
 const Navbar =  () => {
   return (
-         <nav className={stylles.navbar}>
-          <div className={`${stylles.item}${stylles.active}`}>Profiler</div>
-          <div className={stylles.item}>Users</div>
-          <div className={stylles.item}>Messages</div>
-        </nav>
+           <div className={stylles.navbar}>
+            <nav>
+             <div>
+              <NavLink to="/profile" className={`${stylles.item}${stylles.active}`}>Profiler</NavLink>
+             </div>
+             <div>
+               <NavLink to="/users" className={stylles.item}>Users</NavLink>
+             </div>
+             <div>
+              <NavLink to ="/dialogs"className={stylles.item}>Messages</NavLink>
+             </div>
+            </nav>
+           </div>
        );
 }
 
