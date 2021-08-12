@@ -1,8 +1,8 @@
 import React from 'react'
-import classes from './Profile.module.css'
+import classes from './Users.module.css'
 
-const Profile =  () => {
-  return <div> Profile </div>
+const Users =  () => {
+  return <div> Users </div>
 }
 
-export default Profile;
+export default Users;

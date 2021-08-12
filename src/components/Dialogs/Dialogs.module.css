@@ -1,0 +1,13 @@
+.item {
+  display: grid;
+  grid-template-areas:
+  'u m';
+  grid-template-columns: 1fr 2fr;
+}
+.users {
+  grid-area: u
+}
+
+.message {
+  grid-area: m;
+}

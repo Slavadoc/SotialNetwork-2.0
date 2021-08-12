@@ -8,6 +8,7 @@ import FooterContainer from './components/Footer/FooterContainer'
 import NavbarContainer from './components/Navbar/NavbarContainer'
 import ProfileContainer from './components/Profile/ProfileContainer'
 import DialogsContainer from './components/Dialogs/DialogsContainer'
+import UsersContainer from './components/Users/UsersContainer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Switch>
             <Route path="/dialogs" component={() => < DialogsContainer />} />
             <Route path="/profile" component={() => <ProfileContainer />}/>
+            <Route path="/users" component={() => <UsersContainer />}/>
           </Switch>
          </div>
         <FooterContainer />

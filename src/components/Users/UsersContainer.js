@@ -1,15 +1,11 @@
 import React,{Component} from 'react'
+import Users from './Users'
 
-
-import Profile from './Profile'
-
-class ProfileContainer extends React.Component {
-  UsersAPI.getUsers()
-
+class UsersContainer extends React.Component {
 
   render() {
     return <Users />
   }
 }
 
-export default ProfileContainer;
+export default UsersContainer;
