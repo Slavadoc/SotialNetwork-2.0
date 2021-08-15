@@ -1,9 +1,9 @@
 import React from 'react'
 import stylles from './DialogsItem.module.css'
 
-const DialogsItem =  () => {
+const DialogsItem =  (props) => {
   return <div>
-     Smth
+    <div>{props.dialogsItem}</div>
    </div>
 }
 

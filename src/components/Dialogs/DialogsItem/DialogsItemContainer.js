@@ -9,6 +9,8 @@ class DialogsItemContainer extends React.Component {
   }
 }
 
+
+
   export default DialogsItemContainer;
   /*class HeaderContainer extends React.Component {
     render(){
