@@ -1,6 +1,5 @@
 import React from 'react'
 import stylles from './Navbar.module.css' // stylles = obj
-import { NavLink } from 'react-router-dom'
 
 console.log(stylles)/*
 let c1 = "item"{}
@@ -13,15 +12,7 @@ const Navbar =  () => {
   return (
     <div className={stylles.navbar}>
       <nav>
-       <div>
-         <NavLink to="/profile">Profile</NavLink>
-       </div>
-       <div>
-          <NavLink to="/users">Users</NavLink>
-       </div>
-       <div>
-          <NavLink to="/dialogs">Dialog</NavLink>
-       </div>
+      
       </nav>
     </div>
   );
